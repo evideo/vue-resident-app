@@ -11,12 +11,9 @@
     </ul>
 </template>
 
-
 <script>
 
-
 export default {
-  name: 'grid',
   data () {
       return {
       items: [
@@ -33,9 +30,6 @@ export default {
         ],
         classObj: {}
       }
-  },
-
-  components: {
   }
 }
 

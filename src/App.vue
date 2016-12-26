@@ -1,8 +1,6 @@
 <template>
   <section>
     <div id="app">
-      <advertisement></advertisement>
-      <portal></portal>
       <transition
         name="slide"
         :enter-active-class="enterActiveClass"
@@ -12,6 +10,7 @@
         </keep-alive>
       </transition>
     </div>
+    <portal></portal>
   </section>
 </template>
 
