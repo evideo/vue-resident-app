@@ -10,13 +10,14 @@
         </keep-alive>
       </transition>
     </div>
-    <portal></portal>
+    <community></community>
   </section>
 </template>
 
 <script>
-import Advertisement from './views/Advertisement'
+//import Advertisement from './views/Advertisement'
 import Portal from './views/Portal'
+import Community from './views/Community'
 
 export default {
   name: 'app',
@@ -27,8 +28,9 @@ export default {
       }
   },
   components: {
-    Advertisement,
-    Portal
+//    Advertisement,
+//    Portal
+      Community
   }
 }
 

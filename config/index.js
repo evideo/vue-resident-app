@@ -28,6 +28,13 @@ module.exports = {
         pathRewrite: {
           '^/api': ''
         }
+      },
+      '/baseurl': {
+        target: 'http://ezhan-server.jahome.net:9100',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/baseurl': ''
+        }
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"

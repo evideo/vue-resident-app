@@ -17,16 +17,11 @@ export default {
   data () {
       return {
       items: [
-            {message: '门禁' , url:'https://img1.qdingnet.com/image-5502c70f-85bd-4f02-9e7c-498de3aaa23b.png'},
-            {message: '房屋' , url:'https://img1.qdingnet.com/image-c2ec6da9-ee56-4b17-95ff-9003353dbb01.png'},
-            {message: '接受' , url:'https://img1.qdingnet.com/image-601b1d40-73c6-46b5-aabc-67e0e1cd18bb.png'},
-            {message: '更换' , url:'https://img1.qdingnet.com/image-b56ab00e-33ba-4ea2-8b6b-de88509dd1ae.png'},
-            {message: '门禁' , url:'https://img1.qdingnet.com/image-5502c70f-85bd-4f02-9e7c-498de3aaa23b.png'},
-            {message: '租售' , url:'https://img1.qdingnet.com/image-c2ec6da9-ee56-4b17-95ff-9003353dbb01.png'},
-            {message: '邀请' , url:'https://img1.qdingnet.com/image-601b1d40-73c6-46b5-aabc-67e0e1cd18bb.png'},
-            {message: '软管' , url:'https://img1.qdingnet.com/image-b56ab00e-33ba-4ea2-8b6b-de88509dd1ae.png'},
-            {message: '软管' , url:'https://img1.qdingnet.com/image-b56ab00e-33ba-4ea2-8b6b-de88509dd1ae.png'},
-            {message: '门禁' , url:'https://img1.qdingnet.com/image-5502c70f-85bd-4f02-9e7c-498de3aaa23b.png'}
+            {message: '声波开锁' , url:'http://7xkjke.com1.z0.glb.clouddn.com/maintiendrai/icon_record_elevator_2.png'},
+            {message: '到家提醒' , url:'http://7xkjke.com1.z0.glb.clouddn.com/maintiendrai/icon_record_arrived_2.png'},
+            {message: '访客记录' , url:'http://7xkjke.com1.z0.glb.clouddn.com/maintiendrai/icon_record_visit_2.png'},
+            {message: '报警记录' , url:'http://7xkjke.com1.z0.glb.clouddn.com/maintiendrai/icon_record_alarm_2.png'},
+            {message: '声波邀请' , url:'http://7xkjke.com1.z0.glb.clouddn.com/maintiendrai/icon_record_invite_2.png'}
         ],
         classObj: {}
       }
@@ -39,12 +34,13 @@ export default {
 
   @import '../assets/css/mui.css';
 
-body{font-size: 14px;height: 100%;background: #ffffff;}
+body{font-size: 12px;height: 100%;background: #ffffff;}
 #grid{
+  .mui-table-view-cell{borer: 1px solid #fcfcfc;}
   .mui-table-view:after{content: none;}
   ul.mui-grid-view{padding:0;}
-  li.mui-table-view-cell{width: 20%;font-size: 14px;}
-  .mui-media-body{margin-top: 0px;}
+  li.mui-table-view-cell{width: 25%;font-size: 12px;}
+  .mui-media-body{margin-top: 0px;font-size: 12px;}
   a.table-cell-size{background: transparent !important;border-radius: 50%;margin: 0;padding: 0;height: 3.6rem;width: 3.6rem;
     display: inherit;POSITION: RELATIVE;
     img{max-width: 3rem;position: absolute;top: 50%;margin-top: -1.5rem;left: 50%;margin-left: -1.5rem;}}
